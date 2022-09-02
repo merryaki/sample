@@ -1,0 +1,76 @@
+@charset "euc-jp";
+
+#control {
+  margin: 0;
+  margin-bottom: 50px;
+}
+#submenu {
+  margin: 0 auto 0 auto;
+  width:95%;
+  position: relative;
+}
+#submenu ul{
+  z-index: 0;
+  margin: 0;
+}
+#submenu ul li { 
+  border:solid 1px #aaa;
+  margin-left:7px;
+  display: inline;
+  z-index: 10;
+  padding: 5px 5px 0px 5px;
+  border-bottom-width:0;
+}
+#submenu ul li a{ 
+  text-decoration: none;
+  margin-top:-3px;
+}
+#submenu li.selected {
+  background: #fff;
+  border:1px solid #FF870F;
+  border-bottom:5px solid #fff;
+}
+#submenu li.selected a{
+  font-weight: 600;
+  font-size: 14px;
+  z-index: 10;
+}
+#editbody {
+  border:1px #aaa solid;
+  margin:-1px auto auto auto;
+  padding: 0px;
+  text-align:center;
+  z-index:5;
+}
+#editbody .ping-box{
+  border:solid 2px #ddd;
+  width:360px;
+  margin:30px auto;
+  background:#F2F1F5;
+}
+#editbody table {
+  border-collapse:collapse;
+  font-size:14px;
+  margin:auto;
+  text-align: left;
+}
+#editbody .ping-box table tr td.mid {
+  padding-left:6em;
+}
+#editbody .holiday-box {
+  width:85%;
+  margin: 20px auto 20px auto;
+}
+#editbody .holiday-box pre {
+  width:200px;
+  margin: auto;
+  text-align:left;
+}
+
+/*
+body[id=mose] #editbody {margin-top:60px;}
+body[id=mose] #submenu ul li {padding:5px 3px 0px 4px;}
+body[id=mose] #submenu ul li a{padding:0px 2px 0 2px;}
+body[id=mose] #submenu ul li.selected {padding:5px 0 0 0;}
+body[id=mose] #submenu ul li.selected a{padding:0px 5px 2px 9px;}
+*/

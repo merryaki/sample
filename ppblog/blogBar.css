@@ -1,0 +1,85 @@
+@charset "euc-jp";
+html{
+  margin : 0;
+  padding : 0;
+  font-size: 14px;
+}
+
+body{
+  color : #475543;
+  font-size : 100%;
+  font-family : "Verdana", "Tahoma", "sans-serif";
+  line-height : 150%;
+  background-color : #ffffff;
+  margin : 3%;
+  padding : 0;
+}
+div#wrapper{
+  width: 500px;
+  margin: 0 auto auto auto;
+  border: 5px solid #003973;
+  background: #F0FFF0;
+
+}
+h1{
+  text-align: center;
+  font:800 230% "Trebuchet MS";
+  margin : 0;
+  padding-top: 20px;
+  letter-spacing: 3px;
+}
+
+a{
+  margin : 0 0.2em;
+  padding : 0;
+}
+
+a:link{
+  color : #0099ff;
+}
+
+a:visited{
+  color : #88cc00;
+}
+
+a:hover{
+  color : #e6194c;
+}
+
+p{
+  text-align: center;
+  padding: 5px;
+}
+
+dl{
+ margin:0;
+}
+
+fieldset{
+  border : none;
+  margin: 20px;
+}
+input {
+  font:500 13px arial;
+  height: 20px;
+}
+input[type=radio]{
+  border: none;
+}
+
+button {
+  border: 1px solid #170466;
+  background: #FFFF37;
+  height: 20px;
+  font: 600 14px arial;
+  cursor: pointer;
+}
+
+dd{
+ margin-left:15px;
+ padding-bottom:5px;
+}
+
+img {
+  cursor: crosshair;
+}

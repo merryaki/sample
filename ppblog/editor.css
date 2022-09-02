@@ -1,0 +1,38 @@
+@charset "euc-jp";
+/*
+ editor.css 
+*/
+.color-cell{
+ width:15px;
+ height:10px;
+ border:1px solid #ddd;
+ margin:2px;
+}
+.imgbtn {height: 20px; width: 21px; border: solid 1px #c0c0c0; margin-bottom:0;}
+#toolbar {padding-bottom:5px; /*width:510px;*/}
+#toolbar img {border:none;width:21px; height:20px;}
+.tool {
+  height:20px;
+  font:800 14px 'Times New Roman';
+  background: #ddd;
+  border: solid 1px #aaa;
+  cursor: pointer;
+}
+.ping-form tr td.rt {
+ text-align :right;
+ font:500 13px arial;
+ color: #00004f;
+}
+.ping-form tr td input {
+ width:100%;
+ height: 17px;
+ border:solid 1px #ddd;
+}
+#pv1{
+ width:98%;
+ border:solid 3px #ddd;
+ background: #fff;
+ height: auto;
+ text-align:left;
+}
+
