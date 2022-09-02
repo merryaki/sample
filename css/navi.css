@@ -1,0 +1,59 @@
+/* ナビゲーション設定 */
+
+/*__________________________________________________
+CSS目次（随時追加）
+001ナビ背景設定
+002ロールオーバー設定
+___________________________________________________*/
+
+
+/* 001ナビ背景設定
+------------------------------------------------- */
+
+#glNavi{
+	background-image: url(../imgbasic/naviWp.jpg);
+	background-repeat: repeat-x;
+}
+
+#navi{
+	font-size: 115%;
+	list-style: none;
+	line-height: 1.8em;
+  font-weight : bold;
+}
+
+#navi2{
+  font-size : 80%;
+  list-style-type : none;
+  font-weight : normal;
+  text-indent : 22px;
+}
+
+/* 002ロールオーバー設定
+------------------------------------------------- */
+/* 背景ディスプレイ化 */
+#navi a{
+	display : block;
+	width : 148px;
+	background-repeat : no-repeat;
+	background-position : center;
+	color: #660000;
+	padding-left: 22px;
+}
+
+#navi a:hover{
+	background-image: url(../imgbasic/naviArrow.gif);
+}
+
+#navi2 A{
+	display : block;
+	width : 148px;
+	background-repeat : no-repeat;
+	background-position : center;
+	color: #660000;
+	padding-left : 12px;
+}
+
+#navi2 a:hover{
+	background-image: url(../imgbasic/naviArrow.gif);
+}
