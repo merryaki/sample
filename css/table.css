@@ -1,0 +1,130 @@
+/*------------ table style set ------------*/
+.hpb-cnt-tb1{
+	
+	border-top-width : 8px;
+	border-right-width : 8px;
+	border-bottom-width : 8px;
+	border-left-width : 8px;
+	border-top-style : none;
+	border-right-style : none;
+	border-bottom-style : none;
+	border-left-style : none;
+	
+	
+	
+	
+  padding-top : 0px;
+  padding-left : 0px;
+  padding-right : 0px;
+  padding-bottom : 0px;
+  margin-top : 0px;
+  margin-left : 0px;
+  margin-right : 0px;
+  margin-bottom : 0px;
+  
+  text-indent : 0px;
+}
+.hpb-cnt-tb2{
+	background-color: #333333;
+	border: 1px solid #333333;
+}
+.hpb-cnt-tb3{
+	
+	border: 0px solid #333333;
+  
+  background-image : url(../img/kitchen.gif);
+}
+.hpb-cnt-tb-th1 {
+	background-color: #BBBBBB;
+	font-size: 80%;
+	color: #333333;
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #333333;
+	border-right-color: #333333;
+	border-bottom-color: #333333;
+	border-left-color: #333333;
+}
+.hpb-cnt-tb-th2 {
+	background-color: #CCCCCC;
+	font-size: 80%;
+	color: #333333;
+	border: 0px solid #333333;
+}
+.hpb-cnt-tb-cell1 {
+	background-color: #EEEEEE;
+	
+	color: #333333;
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #333333;
+	border-right-color : gray;
+	border-bottom-color : gray;
+	border-left-color: #333333;
+  padding-top : 4px;
+  margin-top : 0px;
+  text-indent : 0px;
+  
+  font-size : x-small;
+  padding-left : 6px;
+  margin-left : auto;
+}
+.hpb-cnt-tb-cell2 {
+	background-color: #FFFFFF;
+	font-size: 80%;
+	color: #333333;
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #333333;
+	border-right-color : silver;
+	border-bottom-color : silver;
+	border-left-color: #333333;
+  padding-left : 6px;
+}
+.hpb-cnt-tb-cell3 {
+	background-color: #EEEEEE;
+	font-size: 80%;
+	color: #333333;
+	border: 0px solid #333333;
+}
+.hpb-cnt-tb-cell4 {
+	background-color: #FFFFFF;
+	font-size: 80%;
+	color: #333333;
+	border: 0px solid #333333;
+}
+.hpb-cnt-tb-cell5 {
+	background-color: #FFFFFF;
+	font-size: 80%;
+	color: #333333;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #CCCCCC;
+	border-right-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+}

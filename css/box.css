@@ -1,0 +1,177 @@
+/* ボックス設定 */
+/*__________________________________________________
+CSS目次
+001メイン設定
+002ヘッダ設定
+003フッタ設定
+004フラッシュ設定
+005-1メイン囲み設定
+005-2フロートボックス設定
+___________________________________________________*/
+
+/* 01メイン
+-------------------------------------------- */
+#main{
+	width:780px;
+	text-align: center;
+	height:100%;
+}
+
+/* 02ヘッダ
+-------------------------------------------- */
+#header{
+	width:780px;
+	height:75px;
+	text-align: left;
+	background-image: url(../imgbasic/headerWp.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+
+#hedLeft{
+	float:left;
+	width:160px;
+	padding:28px 0 0 25px;
+}
+
+#hedRight{
+	float:right;
+	text-align: right;
+	padding:52px 15px 0 0;
+	color: #666666;
+	font-size: 90%;
+}
+
+/* 03フッタ
+-------------------------------------------- */
+#footer{
+	width:550px;
+	text-align: left;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:15px;
+	background-color: #FEEDD3;
+  
+  
+  border-bottom-width : 1px;
+  border-right-width : 1px;
+  padding-right : 0px;
+  
+  
+  border-bottom-style : solid;
+  border-bottom-color : #ffaaaa;
+  border-right-style : solid;
+  border-right-color : #ffb0b0;
+}
+
+#footTxt{
+	color: #A02D0A;
+	font-size: 85%;
+	padding:15px;
+}
+
+/* 04フラッシュ
+-------------------------------------------- */
+#flash{
+	text-align: right;
+	width:592px;
+	height:230px;
+	margin-bottom:15px;
+	background-color:#cccccc;
+}
+
+
+/*05メイン囲み
+-------------------------------------------- */
+
+/*メインコンテナ*/
+#container{
+	width:100%;
+	height:100%;
+	text-align: left;
+	margin-left:auto;
+	margin-right:auto;
+	background-image: url(../imgbasic/rightWp.jpg);
+	background-repeat: repeat-y;
+}
+
+/*idBoth（囲み）トップページ*/
+.idBoth01{
+	width:580px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:25px;
+  
+}
+
+/*idBothシリーズ（囲み）セカンドページ*/
+.idBoth02{
+	width:570px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	margin-bottom:25px;
+}
+
+/* 05-2フロートボックス
+-------------------------------------------- */
+#left{
+	width:170px;
+	height:100%;
+	float:left;
+	background-image: url(../imgbasic/leftWp.gif);
+	background-repeat: no-repeat;
+	background-position: 0% 65%;
+	/* MacIE 以外を適用 \*/
+	background-position: 0% 100%;
+	/* MacIE end */
+}
+
+#right{
+	width:590px;
+	height:100%;
+	float:right;
+}
+
+/*ニュース*/
+#news{
+	width:380px;
+	
+	float:left;
+	border: 3px solid #cccccc;
+}
+
+#newsTxt{
+	margin-left:auto;
+	margin-right:auto;
+	padding:5px 10px 5px 15px;
+}
+
+/*特出し*/
+#sNews{
+	text-align: center;
+	width:185px;
+	float:right;
+}
+#message{
+  background-image : url(../img/kitchen.gif);
+  background-repeat : no-repeat;
+background-position : center center;
+  width : 480px;
+  line-height : normal;
+  text-indent : 0px;
+  padding-top : 0px;
+  padding-left : 0px;
+  padding-right : 0px;
+  padding-bottom : 0px;
+  margin-top : auto;
+  margin-left : auto;
+  margin-right : auto;
+  margin-bottom : auto;
+}
+#message_l{
+  left : auto;
+}
+#message_r{
+  left : auto;
+}

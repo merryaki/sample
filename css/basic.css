@@ -1,0 +1,83 @@
+/* CSS基本設定 */
+/*__________________________________________________
+CSS目次
+001ボディ設定
+002見出し設定
+003回り込み解除
+___________________________________________________*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	height:100%;
+}
+
+P{
+	margin: 10px 0;
+  
+  background-repeat : no-repeat;
+}
+
+/* 01ボディ設定
+------------------------------------------------- */
+body{
+	height:100%;
+	font-size: 80%;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", sans-serif;
+	line-height: 1.3;
+	color: #333333;
+	/*\*/
+	letter-spacing:0.1em;
+	/**/
+	background-image:url(../imgbasic/wp.jpg);
+	background-repeat:repeat-y;
+}
+
+/*IE以外のブラウザハック*/
+body > #container {
+    height: auto;
+}
+
+/* 02リンク設定
+------------------------------------------------- */
+A:LINK{
+	color: #0066CC;text-decoration: none
+;
+  
+}
+a:visited{
+	color: #996633;text-decoration: none
+;}
+A:HOVER{
+	color: #333333;text-decoration: none
+;
+  background-color : #fee0b4;
+}
+
+/* 03見出し設定
+------------------------------------------------- */
+h2{
+	border-left: 4px solid #0080cc;
+	padding-left: 3px;
+	margin: 5px;
+	color:#0080cc;
+}
+
+h3{
+	background-image: url(../imgbasic/sTitle.gif);
+	background-repeat: no-repeat;
+	background-position: 0 3px;
+	padding-left: 15px;
+	font-size: 110%;
+}
+
+/* 04回り込み解除
+------------------------------------------------- */
+.clear{
+	clear: both;
+}
+
+/* copyright (C) Rivers all rights reserved. */

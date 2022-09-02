@@ -1,0 +1,93 @@
+/* 画像・その他設定 */
+
+/*__________________________________________________
+CSS目次（随時追加）
+001イメージ用マージン
+002特殊文字設定
+003ニュース用設定
+004リスト設定
+___________________________________________________*/
+
+
+/* 001イメージ用マージン設定
+------------------------------------------------- */
+
+/* ボトム3ピクセル */
+.mar03{
+	margin-bottom: 3px;
+}
+
+/* ボトム5ピクセル */
+.mar05{
+	margin-bottom: 5px;
+}
+
+/* ボトム10ピクセル */
+.mar10{
+	margin-bottom: 10px;
+}
+
+/* ボトム15ピクセル */
+.mar15{
+	margin-bottom: 15px;
+}
+
+/* ボトム20ピクセル */
+.mar20{
+	margin-bottom: 20px;
+}
+
+/* ナビゲーション下部のダッシュ */
+#dash{
+	margin:15px 0 15px 6px;
+}
+
+/* バナー用 */
+#banner{
+	margin-left:12px;
+}
+
+/* 002特殊文字設定
+------------------------------------------------- */
+.st_bold{
+	font-weight: bold;
+}
+
+.st_small{
+	font-size: 10px;
+}
+
+#st_footer{
+	font-weight: bold;
+	font-size: 130%;
+}
+
+/* ヘッダー用矢印付き文字 */
+.hedArrow{
+	background-image: url(../imgbasic/imgArrow.gif);
+	background-repeat: no-repeat;
+	padding-left:10px;
+	background-position: 0 2px;
+}
+
+/* 003 ニュース用
+------------------------------------------------- */
+#newsImg{
+	border-bottom: 2px solid #cccccc;
+}
+
+#newsUl li{
+	margin:5px 10px;
+	border-bottom: 1px dashed #cccccc;
+	line-height: 1.3em;
+	list-style-image: url(../indeximg/imgList.gif);
+	font-size: 96%;
+}
+
+/* 004 リスト用
+------------------------------------------------- */
+.explain{
+	margin:10px 0 0 40px;
+}
+
+/* copyright (C) Rivers all rights reserved. */
